@@ -1,0 +1,422 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, th,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* MAIN CSS */
+body{
+	background:#E3EBCA;
+	font-family:Arial, Geneva, sans-serif;
+	font-size:10pt;
+	color:#333;
+}
+#container{
+	width:100%;
+	min-width:960px;
+}
+.small-link:link, .small-link:visited{
+	text-decoration:none;
+	color:#333;
+}
+.small-link:hover{
+	text-decoration:underline;
+}
+.big-link:link, .big-link:visited{
+	text-decoration:none;
+	color:#333;
+	font-size:13pt;
+}
+.big-link:hover{
+	text-decoration:underline;
+}
+#header{
+	background: -moz-linear-gradient(top, #333333, #555555);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#555555));
+	padding:10px;
+	height:40px;
+	color:#fff;
+	border-bottom:1px solid #222;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#333333, endColorstr=#555555);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#333333, endColorstr=#555555)";
+}
+#header h1{
+	font-size:24pt;
+	color:#fff;
+	font-weight:bold;
+	font-family:Arial, Geneva, sans-serif;
+}
+#mainContent{
+	padding:20px;
+}
+.normal-link:link, .normal-link:visited{
+	font-size:11pt;
+	color:#444;
+	text-decoration:none;
+}
+.normal-link:hover{
+	color:#069;
+	text-decoration:underline;
+}	
+#content h3{
+	font-family:Arial, Geneva, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+}
+#list{
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px solid #999;
+	font-size:10pt;
+	font-family:Arial, Geneva, sans-serif;
+	color:#666;
+}
+#list .list-cat{
+	background:#CDD5B4;
+	border-bottom:3px solid #E3EBCA;
+}
+#list .list-cat td{
+	padding:8px;
+	height:20px;
+}
+.big-text{
+	font-size:12pt;
+}
+.big-text a:link, .big-text a:visited{
+	color:#3F5865;
+	font-size:12pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+.big-text a:hover{
+	text-decoration:underline;
+}
+
+
+#create-topic{
+	width:70%;
+	max-width:700px;
+	margin:0 auto;
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px solid #999;
+	display:none;
+}
+#create-topic h2{
+	font-size:15pt;
+	text-align:center;
+	color:#3E7EA0;
+	font-family:Arial, Geneva, sans-serif;
+	font-weight:bold;
+	padding-bottom:9px;
+}
+#create-topic table tr td{
+	padding:5px;
+}
+#create-topic #inp-name{
+	width:100%;
+	padding:2px;
+}
+#create-topic #inp-content{
+	width:100%;
+	height:200px;
+	font-family:Arial, Geneva, sans-serif;
+	font-size:10pt;
+	padding:2px;
+}
+.inp-submit{
+	padding:10px;
+	background: -moz-linear-gradient(top, #D7F793, #A4DA2F);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D7F793), to(#A4DA2F));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D7F793, endColorstr=#A4DA2F);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D7F793, endColorstr=#A4DA2F)";
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	behaviour: url(../fixes/border-radius.htc);
+	border:1px solid #88A647;
+}
+.inp-submit:focus, .inp-submit:active{
+	background: #A4DA2F;
+}
+#notice-board{
+	padding:10px;
+	background:#ACC4C0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border:1px solid #555;
+	border-radius:6px;
+	behaviour: url(../fixes/border-radius.htc);
+	color:#314941;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	font-size:14pt;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.opn-btn:link, .opn-btn:visited{
+	text-decoration:none;
+	padding:10px;
+	background: -moz-linear-gradient(top, #D7F793, #A4DA2F);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D7F793), to(#A4DA2F));
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	behaviour: url(../fixes/border-radius.htc);
+	border:1px solid #88A647;
+	color:#333333;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D7F793, endColorstr=#A4DA2F);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D7F793, endColorstr=#A4DA2F)";
+}
+.opn-btn:hover{
+	cursor:pointer;
+	color:#333333;
+	text-decoration:none;
+}
+.opn-btn:focus, .opn-btn:active{
+	background: -moz-linear-gradient(top, #A4DA2F, #D7F793);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#A4DA2F), to(#D7F793));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A4DA2F, endColorstr=#D7F793);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A4DA2F, endColorstr=#D7F793)";
+}
+.start{
+	padding-top:20px;
+}
+
+.small-text{
+	font-size:10pt;
+	color:#333;
+}
+.small-text a:link, .small-text a:visited{
+	color:#333;
+}
+#search{
+	width:250px;
+	padding:5px;
+	outline:none;
+	-webkit-border-radius:10px;
+	padding-left:28px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	behaviour: url(../fixes/border-radius.htc);
+	border:1px solid #88A647;
+	background:url(../assets/search.png) no-repeat 3px #fff;
+}
+.left-curve{
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-bottomleft:8px; 
+	-webkit-border-top-left-radius:8px; 
+	-webkit-border-bottom-left-radius:8px;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	behavior: url(../fixes/border-radius.htc);
+}
+.right-curve{
+	-moz-border-radius-topright:8px; 
+	-moz-border-radius-bottomright:8px; 
+	-webkit-border-top-right-radius:8px; 
+	-webkit-border-bottom-right-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	behavior: url(../fixes/border-radius.htc);
+}
+.full-curve{
+	-moz-border-radius:8px; 
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	behaviour: url(../fixes/border-radius.htc);
+}
+#notFound{
+	width:500px;
+	text-align:center;
+	margin:0 auto;
+	padding:20px;
+	font-size:13pt;
+	font-weight:bold;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	behaviour: url(../fixes/border-radius.htc);
+	background:#ACC4C0;
+	border:1px solid #445A56;
+}
+
+
+
+#repliesArea{
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px solid #999;
+	font-size:10pt;
+	font-family:Arial, Geneva, sans-serif;
+	color:#666;
+}
+#repliesArea table tr td.reply-container{
+	background:#DEE6C6;
+	padding:10px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	behaviour: url(../fixes/border-radius.htc);
+	border:1px solid #C4CBAF;
+	color:#000;
+	font-size:10pt;
+	font-family:Arial, Geneva, sans-serif;
+}
+#repliesArea table tr td.reply-container h2{
+	font-size:13pt;
+	font-weight:bold;
+	color:#333;
+}
+#repliesArea .commenter{
+	width:50%;
+	padding:10px;
+	height:40px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	behaviour: url(../fixes/border-radius.htc);
+	border:1px solid #9EC6BA;
+	outline:none;
+	resize:none;
+	font-family:Arial, Geneva, sans-serif;
+	font-size:10pt;
+}
+#repliesArea #submitComment{
+	visibility:hidden;
+}
+#pagination{
+	margin:0 auto;
+	margin-top:10px;
+}
+#pagination a.movers-left{
+}
+#pagination a.movers-right{	
+}
+#pagination a:link, #pagination a:visited{
+	text-decoration:none;
+	padding:4px 10px;
+	color:#069;
+	margin-right:5px;
+	margin-left:5px;
+}
+#pagination a:hover{
+	text-decoration:underline;
+}
+#registration{
+	width:960px;
+	margin:0 auto;
+}
+#registration table tr td{
+	padding:4px;
+}
+#registration h1{
+	font-family:Arial, Tahoma;
+	font-size:20pt;
+	text-align:center;
+	padding-bottom:10px;
+}
+#registration #fname, #registration #lname, #registration #username, #registration #email, #registration #pw1, #registration #pw2, #registration #interests{
+	width:400px;
+	padding:4px;
+	font-family:Arial;
+	font-size:12pt;
+	margin:0;
+	border:1px solid #999;
+	outline:none;
+}
+#registration #bio{
+	width:400px;
+	padding:4px;
+	height:200px;
+	font-family:Arial, Geneva, sans-serif;
+	font-size:12pt;
+	border:1px solid #999;
+	outline:none;
+}
+#registration #results, #registration #error-notfilled, #registration #error-email, #registration #error-password, #registration #error-username, #registration #error-name{
+	padding:5px;
+	border:1px solid #666;
+	margin:5px 0;
+	background:#ddd;
+	color:#333;
+	max-width:400px;
+}
+#main-menu{
+	list-style:none;
+	margin-right:20px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#main-menu li{
+	float:left;
+}
+#main-menu li a:link, #main-menu li a:visited{
+	margin-left:7px;
+	margin-top:37px;
+	display:block;
+	font-size:10pt;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	padding:5px 16px;
+	color:#EEF7F8;
+	text-transform:uppercase;
+	text-decoration:none;
+	-webkit-box-shadow:1px 1px 1px #333;
+	-moz-box-shadow:1px 1px 1px #333;
+	background: -moz-linear-gradient(top, #555555, #222222);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555555), to(#222222));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#555555, endColorstr=#222222);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#555555, endColorstr=#222222)";
+	behaviour: url(../fixes/border-radius.htc);
+	font-family:Arial, Geneva, sans-serif;
+	border:1px solid #000;
+}
+#main-menu li a:active, #main-menu li a:focus{
+	background:#222222;
+}
+.npbtn:link, .npbtn:visited{
+	display:inline-block;
+	text-decoration:none;
+	color:#09f;
+	font-family:Arial, Geneva, sans-serif;
+	font-size:14pt;
+	padding:5px 15px;
+	background: -moz-linear-gradient(top, #555555, #222222);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555555), to(#222222));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#555555, endColorstr=#222222);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#555555, endColorstr=#222222)";
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	border:1px solid #111;
+	text-transform:uppercase;
+	behaviour: url(../fixes/border-radius.htc);
+	position:absolute;
+	left:300px;
+	top:38px;
+}
+.npbtn:focus, .npbtn:active{
+	background:#222222;
+}
+#content #logo{
+	padding:10px;
+	background: url(../assets/blur.jpg) no-repeat top left #222;
+	position:relative;
+}

@@ -1,0 +1,11 @@
+applications:
+- services:
+  - mysql-e6
+  disk_quota: 1024M
+  buildpack: php_buildpack
+  host: codemaster
+  name: Codemaster
+  path: .
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 128M

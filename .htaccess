@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^forum/category/([^/]*)/([^/]*)$ /forum/viewcat.php?id=$1&category=$2 [L]
+RewriteRule ^forum/topic/([^/]*)/([^/]*)/([^/]*)$ /forum/viewtopic.php?id=$1&category=$2&topic=$3 [L]
+
+RewriteRule ^subject/([^/]*)$ /viewsubject.php?stitle=$1 [L]
+RewriteRule ^topic/([^/]*)/([^/]*)/([^/]*)$ /viewpost.php?stitle=$1&snipId=$2&title=$3 [L]
+RewriteRule ^coder/([^/]*)$ /coder.php?coder=$1 [L]
+
+ErrorDocument 404 /404.php
+IndexIgnore *
