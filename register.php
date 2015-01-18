@@ -12,8 +12,8 @@
 	if (isset($_POST['submit'])){
 		$msg = "";
 		$validate = true;
-		$fname = mss($_POST['fname']);
-		$lname = mss($_POST['lname']);
+		$fname = mss($con, $_POST['fname']);
+		$lname = mss($con, $_POST['lname']);
 		$username = mysqli_real_escape_string($con, $_POST['username']);
 		$email = mysqli_real_escape_string($con, $_POST['email']);
 		$pw1 = $_POST['pw1'];

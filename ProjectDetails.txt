@@ -1,0 +1,45 @@
+OBJECTIVE:
+CodeMaster is a web platform where users can share their codes/snippets in various programming languages. The main objective of CodeMaster is sharing code, and connecting programmers worldwide.
+
+OVERVIEW:
+CodeMaster emphasizes on the following:
+- Posting code snippets
+- Uploading files
+- Interacting with other coders
+- Helping coders solve their problems by mutual coding
+
+PROGRAMMING LANGUAGES:
+CodeMaster offers the following popular programming languages:
+	C
+	C++
+	C#
+	Java
+	PHP
+	Javascript
+	Python
+	Perl
+	SQL
+	Ruby
+	Shell
+	Visual Basic
+
+There is also a separate "Others" category for sharing codes which do not fall under the above categories.
+
+FORUM:
+CodeMaster also consists of a forum where users can interact with other users. The main categories of the forum consists of a General category and the 12 programming languages. Users can start threads under these broad categories. This helps in solving of problems and interacting with each other.
+
+USER PROFILE:
+Every user has a separate profile. The profile shows the basic information of the user, his/her code snippets and stash. The user can also upload a profile picture. The user can also edit his/her information. If a user visits another user's profile he/she can send the latter a personal message.
+
+POSTS AND STASH:
+Each post is categorized under a specific programming language. Each post has a title, date, comments, views, and the user who posted it. The Global Feed in the homepage shows all the posts in decreasing order of views. Comments can also be added to a specific post.
+Every user has a stash where he/she can upload files which can be downloaded by other users. Maximum file size allowed is 2MB.
+
+PRIVACY:
+A user can make a specific post either private or public according to his/her choice. A private post can only be seen by the user who posted it, and no one else.
+
+PRIVATE MESSAGING SYSTEM:
+The private messaging system enhances the social platform. Any user can navigate to another user's profile and click on the "Send Message" button to send a message to him. All users have an inbox, where they receive messages sent to them by other users.
+
+REGISTRATION:
+Registration is a simple process where a user can input his/her basic details and get started. If a user is registered, he/she can comment on posts, upload files to his/her stash, created forum threads, and post replies to other threads.
